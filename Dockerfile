@@ -57,7 +57,7 @@ RUN sed -i -e 's/#server.host: "localhost"/server.host: "0.0.0.0"/' /etc/kibana/
 ADD conf/main.dic /usr/share/elasticsearch/plugins/ik/config/main.dic
 
 # Init supervisor
-ADD conf/sv-elasticsearch.conf /etc/supervisor/conf.d
+ADD conf/supervisord.conf      /etc/supervisor/supervisord.conf
 ADD conf/sv-kibana.conf        /etc/supervisor/conf.d
 ADD conf/start.sh              /
 
