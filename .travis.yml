@@ -3,7 +3,7 @@ language: bash
 services: docker
 
 install:
-  - git clone https://github.com/samejack/docker-elasticsearch-kibana
+  - git clone https://github.com/samejack/elasticsearch-kibana
 
 before_script:
   - image="samejack/elasticsearch-kibana"
