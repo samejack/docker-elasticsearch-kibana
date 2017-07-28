@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/samejack/point-core.svg?branch=master)](https://travis-ci.org/samejack/docker-elasticsearch-kibana)
 
 ## Overview
-Docker image of Elastic Search + Kibana + IK Plugin + Dictionary Plus for Chinese
+Docker image of Elastic Search + Kibana + IK Plugin + Dictionary Plus for Chinese based-on Ubuntu 14.04
 
 [Docker Cloud](https://hub.docker.com/r/samejack/elasticsearch-kibana/)
 
