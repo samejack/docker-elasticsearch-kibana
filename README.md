@@ -1,5 +1,5 @@
-# docker-elasticsearch-kibana
-[![Build Status](https://travis-ci.org/samejack/point-core.svg?branch=master)](https://travis-ci.org/samejack/docker-elasticsearch-kibana)
+# elasticsearch-kibana
+[![Build Status](https://travis-ci.org/samejack/point-core.svg?branch=master)](https://travis-ci.org/samejack/elasticsearch-kibana)
 
 ## Overview
 Docker image of Elastic Search + Kibana + IK Plugin + Dictionary Plus for Chinese
@@ -14,7 +14,7 @@ sudo docker run -p 5601:5601 -p 9200:9200 -it samejack/elasticsearch-kibana:late
 
 ## Building from Source Code (Dockerfile)
 ```
-git clone https://github.com/samejack/docker-elasticsearch-kibana
-cd docker-elasticsearch-kibana
+git clone https://github.com/samejack/elasticsearch-kibana
+cd elasticsearch-kibana
 sudo docker build -t samejack/elasticsearch-kibana ./
 ```
