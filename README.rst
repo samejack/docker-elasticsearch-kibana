@@ -2,18 +2,20 @@
 docker-elasticsearch-kibana
 ***********************************
 
-Overview
------------------------------------
-
 .. image:: https://img.shields.io/badge/license-APACHE-blue.svg
    :target: http://www.apache.org/licenses/LICENSE-2.0
-   
+
 .. image:: https://travis-ci.org/samejack/point-core.svg?branch=master
    :target: https://travis-ci.org/samejack/docker-elasticsearch-kibana
 
-Docker image of Elastic Search + Kibana + IK Plugin + Dictionary Plus for Chinese based-on Ubuntu 14.04
+.. image:: https://img.shields.io/docker/build/samejack/elasticsearch-kibana.svg
+   :target: https://hub.docker.com/r/samejack/elasticsearch-kibana/
 
-[Docker Cloud](https://hub.docker.com/r/samejack/elasticsearch-kibana/)
+
+Overview
+-----------------------------------
+
+Docker image of Elastic Search + Kibana + IK Plugin + Dictionary Plus for Chinese based-on Ubuntu 14.04.
 
 Getting and Start
 =================
