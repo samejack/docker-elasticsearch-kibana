@@ -10,6 +10,9 @@ if [ "${REMOVE_EXT_STOPWORDS}" != "" ]; then
   sed -i -e "s/<\!-- <entry key=\"remote_ext_stopwords\">words_location<\/entry> -->/<entry key=\"remote_ext_stopwords\">${REMOVE_EXT_STOPWORDS//\//\\/}<\/entry>/g" /usr/share/elasticsearch/plugins/ik/config/IKAnalyzer.cfg.xml
 fi
 
+chown elasticsearch:elasticsearch -R /var/log/elasticsearch/
+chown elasticsearch:elasticsearch -R /var/lib/elasticsearch/
+
 service elasticsearch start
 
 /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
