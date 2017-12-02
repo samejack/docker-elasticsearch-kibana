@@ -19,9 +19,16 @@ Docker image of Elastic Search + Kibana + IK Plugin + Dictionary Plus for Chines
 
 Getting and Start
 =================
+
+Fix vm.max_map_count
 .. code-block:: bash
 
     sudo sysctl -w vm.max_map_count=262144
+    sudo echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
+    
+Run Docker
+.. code-block:: bash
+
     sudo docker pull samejack/elasticsearch-kibana:latest
     sudo docker run -p 5601:5601 -p 9200:9200 -it samejack/elasticsearch-kibana:latest
 
